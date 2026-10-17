@@ -1,0 +1,27 @@
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+venv/
+.venv*/
+__pycache__/
+*.py[cod]
+
+# Node.js and Next.js generated files
+node_modules/
+.next/
+out/
+coverage/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and editor/OS files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
